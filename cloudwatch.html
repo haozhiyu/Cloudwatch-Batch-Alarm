@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EC2 Batch Monitor</title>
+<title>Ecloudrover EC2 Batch Monitor</title>
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 body {
@@ -43,6 +43,8 @@ body {
         <th bgcolor="#D9D7D7"><p id="select" name="select" size="5" multiple="MULTIPLE">
           <select name="metric" size="5" multiple="MULTIPLE" id="metric">
             <option value="CPUUtilization" selected="selected">CPUUtilization</option>
+            <option value="disk_used_percent">disk_used_percent</option>
+            <option value="mem_used_percent">mem_used_percent</option>  
             <option value="DiskReadOps">DiskReadOps</option>
             <option value="DiskWriteOps">DiskWriteOps</option>
             <option value="DiskReadBytes">DiskReadBytes</option>
